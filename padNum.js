@@ -29,6 +29,7 @@ function padNum (num, padWidth, padChar, padDirection) {
             numRightPadCharacers = 0;
     }
     
+    // this is a pointless comment
     var leftPadCharacters = (numLeftPadCharacters > 0) ? Array(numLeftPadCharacters + 1).join(padChar) : '';
     var rightPadCharacters = (numRightPadCharacers > 0) ? Array(numRightPadCharacers + 1).join(padChar) : '';
         
